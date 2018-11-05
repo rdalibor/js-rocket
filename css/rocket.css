@@ -32,10 +32,15 @@
 	width: 20px;
 	height: 100px;
 	background-color: blue;
-	transition: bottom 10s;
+	transition: bottom 7s;
 }
 
-.rocket.flying {
+body.body-state1 .rocket {
+	transition: none;
+}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket {
 	bottom: 1000px;
 }
 
